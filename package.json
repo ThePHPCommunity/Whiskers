@@ -1,0 +1,22 @@
+{
+  "name": "whiskers",
+  "version": "1.0.0",
+  "description": "Whiskers - Slack Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.epickitty.co.uk/EpicKitty/Whiskers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^3.2.4",
+    "cron": "^1.7.1",
+    "markov-respond": "^7.0.0",
+    "pidusage": "^2.0.17",
+    "slackbots": "^1.2.0"
+  }
+}
