@@ -90,7 +90,8 @@ bot.on('message', function(data) {
 				if (commands[command].toggle) {
 					commands[command].execute(command, message, data);
 				}
-			} else if (command == "killmenow" && data.user == "UBS1QV78R") {
+			} else if (command == "killmenow" && config.owners.indexOf(data.user) > -1) {
+				// Hidden killswitch command.
 				process.kill(process.pid);
 			}
 		} else {

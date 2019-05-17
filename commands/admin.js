@@ -5,8 +5,8 @@ commands.cmd = {
 	description: "Executes Commands at the command line (Bot Owner Only)",
 	usage: prefix + "cmd <command>",
 	execute: function(command, message, data) {
-		if (data.user == "UBS1QV78R"){
-			toConsole('bot', '', data.channel, "```"+cmd_exec(message)+"```");
+		if (config.owners.indexOf(data.user) > -1) {
+			toConsole('bot', '', data.channel, "```" + cmd_exec(message) + "```");
 		}
 	}
 }
