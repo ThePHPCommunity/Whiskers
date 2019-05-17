@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.epickitty.co.uk/EpicKitty/Whiskers.git"
+    "url": "https://github.com/ThePHPCommunty/Whiskers.git"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +16,6 @@
     "ansi-colors": "^3.2.4",
     "cron": "^1.7.1",
     "markov-respond": "^7.0.0",
-    "pidusage": "^2.0.17",
     "slackbots": "^1.2.0"
   }
 }
