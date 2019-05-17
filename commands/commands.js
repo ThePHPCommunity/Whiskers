@@ -9,17 +9,17 @@ commands.commands = {
 		l = 0;
 		for (var cmd in commands) {
 			// Determine the length of the longest command named
-			if (commands[cmd].command.length > l){
+			if (commands[cmd].command.length > l) {
 				l = commands[cmd].command.length;
 			}
 		}
 		for (var cmd in commands) {
 			var tog = "";
-			if (!commands[cmd].toggle){
+			if (!commands[cmd].toggle) {
 				tog = " [Disabled]";
 			}
 			var commandName = commands[cmd].command;
-			for (var x = 0; x < (l - commands[cmd].command.length); x++){
+			for (var x = 0; x < (l - commands[cmd].command.length); x++) {
 				commandName += " ";
 			}
 			msg += commandName + " | " + commands[cmd].description + tog + "\n";

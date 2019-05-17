@@ -6,7 +6,7 @@ commands.lmgtfy = {
 	usage: prefix + "example <search term>",
 	execute: function(command, message, data) {
 		if (message) {
-			toConsole('bot','',data.channel,"https://lmgtfy.com/?q="+encodeURIComponent(message))
+			toConsole('bot', '', data.channel, "https://lmgtfy.com/?q=" + encodeURIComponent(message))
 		}
 	}
 }
